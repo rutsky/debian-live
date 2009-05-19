@@ -2,7 +2,7 @@
 
 # $LH_ARCHITECTURE: select chroot architecture
 # (Default: autodetected)
-LH_ARCHITECTURE="amd64"
+LH_ARCHITECTURE="i386"
 
 # $LH_BOOTSTRAP_CONFIG: set distribution config directory
 # (Default: empty)
@@ -30,15 +30,15 @@ LH_DISTRIBUTION="lenny"
 
 # $LH_MIRROR_BOOTSTRAP: set mirror to bootstrap from
 # (Default: http://ftp.us.debian.org/debian/)
-LH_MIRROR_BOOTSTRAP="http://ftp.us.debian.org/debian/"
+LH_MIRROR_BOOTSTRAP="http://deb-proxy:9999/debian/"
 
 # $LH_MIRROR_CHROOT: set mirror to fetch packages from
 # (Default: http://ftp.us.debian.org/debian/)
-LH_MIRROR_CHROOT="http://ftp.us.debian.org/debian/"
+LH_MIRROR_CHROOT="http://deb-proxy:9999/debian/"
 
 # $LH_MIRROR_CHROOT_SECURITY: set security mirror to fetch packages from
 # (Default: http://security.debian.org/)
-LH_MIRROR_CHROOT_SECURITY="http://security.debian.org/"
+LH_MIRROR_CHROOT_SECURITY="http://deb-proxy:9999/security"
 
 # $LH_MIRROR_BINARY: set mirror which ends up in the image
 # (Default: http://ftp.us.debian.org/debian/)
@@ -50,4 +50,4 @@ LH_MIRROR_BINARY_SECURITY="http://security.debian.org/"
 
 # $LH_CATEGORIES: select categories to use
 # (Default: main)
-LH_CATEGORIES="main"
+LH_CATEGORIES="main non-free contrib"

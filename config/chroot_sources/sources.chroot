@@ -1,0 +1,14 @@
+deb http://deb-proxy:9999/debian lenny main non-free contrib
+deb-src http://deb-proxy:9999/debian lenny main non-free contrib
+
+deb http://deb-proxy:9999/debian testing main non-free contrib
+deb-src http://deb-proxy:9999/debian testing main non-free contrib
+
+#deb http://deb-proxy:9999/debian unstable main non-free contrib
+#deb-src http://deb-proxy:9999/debian unstable main non-free contrib
+
+#deb http://deb-proxy:9999/debian experimental main non-free contrib
+#deb-src http://deb-proxy:9999/debian experimental main non-free contrib
+
+deb http://deb-proxy:9999/security lenny/updates main
+deb-src http://deb-proxy:9999/security lenny/updates main

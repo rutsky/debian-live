@@ -1,0 +1,31 @@
+Package: *
+Pin: origin
+Pin-Priority: 500
+
+Package: *
+Pin: origin wine.budgetdedicated.com
+Pin-Priority: 510
+
+Package: *
+Pin: release a=stable
+Pin-Priority: 498
+
+Package: *
+Pin: release a=testing
+Pin-Priority: 497
+
+Package: *
+Pin: release a=unstable
+Pin-Priority: 495
+
+Package: *
+Pin: origin www.virtualbox.org
+Pin-Priority: 510
+
+Package: *
+Pin: release a=experimental
+Pin-Priority: 493
+
+Package: libqt4-dev libqtcore4 libqtgui4 libqt4-core libqt4-dbus libqt4-qt3support libqt4-xml libqtgui4 libqt4-network libqt4-svg libqt4-webkit libqt4-sql libqt4-script libqt4-scripttools libqt4-xmlpatterns libqt4-designer libqt4-help libqt4-assistant libqt4-test qt4-qmake libqt4-opengl-dev qt4-dev-tools qt4-doc libphonon4 phonon phonon-backend-null qt4-designer libqt4-sql-sqlite libsqlite3-0 qt4-qtconfig
+Pin: release a=testing
+Pin-Priority: 1001

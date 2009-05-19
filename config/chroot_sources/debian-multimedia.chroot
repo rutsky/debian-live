@@ -1,0 +1,2 @@
+deb http://deb-proxy:9999/debian-multimedia stable main
+deb-src http://deb-proxy:9999/debian-multimedia stable main

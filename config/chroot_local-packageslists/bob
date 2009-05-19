@@ -1,0 +1,158 @@
+#include <minimal>
+#include <rescue>
+#include <standard-x11>
+# // include <xfce>
+#include <gnome>
+
+#TODO:
+# * Disable exim at startup.
+
+#libqt4-webkit phonon libphonon4 libqca2
+
+konsole xterm
+less file findutils grep mawk patch
+coreutils gnupg2
+kdirstat
+bsdmainutils
+scalpel
+kcalc
+scrot
+vrms
+
+gvidm mesa-utils
+htop
+apg
+kruler
+qemu
+tar unadf unalz arj bzip2 gzip p7zip p7zip-full zoo
+xclip
+
+# Localization
+console-cyrillic
+recode
+
+# Editors
+mc
+krusader kate vim gedit emacs nano
+
+# Non free tools
+#flashplugin-nonfree
+unace-nonfree lha p7zip-rar rar unrar 
+
+# System
+hwinfo hdparm sdparm smartmontools
+util-linux aptitude dhcp-client rpm
+nfs-common mysql-client dnsutils ftp net-tools netcat rsync traceroute whois
+openssh-client openssh-server
+encfs
+lsof strace
+ncurses-base
+usbutils
+gpm
+
+# Security
+nessus nmap wireshark
+
+# Office
+openoffice.org
+gnumeric
+kchmviewer kpdf acroread
+antiword
+djview4
+
+# IM
+pidgin pidgin-encryption pidgin-extprefs pidgin-festival pidgin-guifications pidgin-hotkeys 
+pidgin-lastfm pidgin-libnotify pidgin-otr pidgin-plugin-pack pidgin-privacy-please pidgin-themes
+kopete gajim 
+psi 
+tkabber tkabber-plugins
+
+# Windows
+ntfs-3g ntfsprogs smbfs wine
+
+# TeX
+texlive texlive-extra-utils texlive-latex-base texlive-science
+texlive-full
+kile texmaker
+kbibtex
+
+# VCS
+git mercurial subversion cvs
+giggle qgit
+
+# Developer tools
+build-essential debhelper dh-make lintian fakeroot devscripts wdiff
+g++ gcc gdb mingw32 nasm
+colorgcc
+automake autoconf autotools-dev jam bjam boost-build m4
+#cmake
+dpatch module-assistant quilt
+exuberant-ctags indent doxygen-gui global
+kdiff3
+qtcreator
+
+# Binary data
+xdelta xdelta3 vbindiff
+khexedit
+
+# Libraries
+libboost1.38-dev
+libqt4-dev qt4-designer qt4-dev-tools qt4-qmake
+qt3-doc qt4-doc
+libc6-dev
+
+# C++
+c++-annotations stl-manual
+
+# Python
+python ipython python-doc
+
+# PHP
+php5-cli php-doc
+
+# Perl
+perl
+
+# Python
+python python-doc
+ipython
+
+# Math
+octave3.0 octave3.0-htmldoc octave-symbolic
+yacas yacas-doc
+gnuplot gnuplot-doc
+glpk libglpk-dev
+scilab
+# TODO: plplot ?
+
+# Image processing
+gqview gwenview ksvg
+graphicsmagick imagemagick netpbm
+gimp inkscape blender
+xfig xfig-doc
+
+# Web
+iceweasel iceweasel-webdeveloper mozilla-noscript mozilla-imagezoom mozilla-livehttpheaders mozilla-firefox-adblock
+opera elinks epiphany-browser konqueror w3m
+ktorrent
+# deluge
+wget
+clive
+curl
+
+# Multimedia
+mplayer smplayer vlc ogle xine-ui
+rhythmbox audacious
+
+# CD/DVD
+wodim brasero k3b dvd+rw-tools eject
+
+# Mail
+fetchmail fetchmailconf
+mutt
+
+# Games
+
+# Documentation
+info man-db manpages manpages-dev manpages-ru
+doc-base doc-debian doc-linux-text debian-reference
