@@ -49,7 +49,7 @@ lsof strace
 ncurses-base
 usbutils
 gpm
-gparted
+gparted testdisk
 
 # Security
 nessus nmap wireshark
