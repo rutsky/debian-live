@@ -104,9 +104,6 @@ libc6-dev
 # C++
 c++-annotations stl-manual
 
-# Python
-python ipython python-doc
-
 # PHP
 php5-cli php-doc
 
