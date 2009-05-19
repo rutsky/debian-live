@@ -49,6 +49,7 @@ lsof strace
 ncurses-base
 usbutils
 gpm
+gparted
 
 # Security
 nessus nmap wireshark
