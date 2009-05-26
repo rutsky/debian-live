@@ -40,6 +40,7 @@ krusader kate vim gedit emacs nano
 unace-nonfree lha p7zip-rar rar unrar 
 
 # System
+apt-listbugs
 hwinfo hdparm sdparm smartmontools
 util-linux aptitude dhcp-client rpm
 nfs-common mysql-client dnsutils ftp net-tools netcat rsync traceroute whois
