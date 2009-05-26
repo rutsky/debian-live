@@ -1,0 +1,8 @@
+# Removing exim.
+# Based on http://welinux.ru/post/814/
+
+set -e
+for PACKAGE in exim4 exim4-base exim4-config exim4-daemon-light
+do
+apt-get remove --purge --yes "${PACKAGE}"
+done
