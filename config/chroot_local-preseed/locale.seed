@@ -1,0 +1,5 @@
+# Default locale.
+#locales locales/default_environment_locale      select  ru_RU.UTF-8
+locales locales/default_environment_locale      select  en_US.UTF-8
+# All generated locales.
+locales locales/locales_to_be_generated multiselect     en_US ISO-8859-1, en_US.ISO-8859-15 ISO-8859-15, en_US.UTF-8 UTF-8, ru_RU ISO-8859-5, ru_RU.CP1251 CP1251, ru_RU.KOI8-R KOI8-R, ru_RU.UTF-8 UTF-8
