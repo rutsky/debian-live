@@ -60,7 +60,8 @@ nessus nmap wireshark
 # Office
 openoffice.org
 gnumeric
-kchmviewer kpdf acroread
+kchmviewer kpdf
+# acroread
 antiword
 djview4
 
