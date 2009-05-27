@@ -1,0 +1,21 @@
+# Console font.
+console-cyrillic        console-cyrillic/fontstyle      select  UniCyr
+# ???
+#console-setup   console-setup/layoutcode        string  us,ru
+# Keyboard layout.
+console-common  console-data/keymap/full        select  ru-ms
+console-data    console-data/keymap/full        select  ru-ms
+console-cyrillic        console-cyrillic/kbdtype        select  Russian Winkeys
+# Keyboard layout switching.
+console-setup   console-setup/toggle    select  Right Alt
+# Console font.
+console-setup   console-setup/fontface  select  Terminus
+# TTY's with cyrillic.
+console-cyrillic        console-cyrillic/ttys   string  /dev/tty[1-6]
+console-setup   console-setup/charmap   select  UTF-8
+console-setup   console-setup/optionscode       string  grp:toggle,grp_led:scroll
+console-cyrillic        console-cyrillic/encoding       select  UNICODE
+console-setup   console-setup/layout    select  Russia
+console-cyrillic        console-cyrillic/bootsetup      boolean true
+console-setup   console-setup/variantcode       string  ,
+console-cyrillic        console-cyrillic/toggle select  Right Alt
