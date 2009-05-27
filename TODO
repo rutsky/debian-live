@@ -3,3 +3,4 @@
  * Configure locales.
  * Using `tee' seems really slowing down creating squashfs process, because of used progress bar in it (look at size of generated log file).
  * Configure not to send e-mails to localhost from Samhain in chroot.
+ * Come with idea of uid/gid translation when mounting Live Debian flash drive.
