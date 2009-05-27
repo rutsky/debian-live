@@ -1,2 +1,3 @@
  * Disable unneded services (such as exim)
  * Install virtualbox
+ * Configure locales.
