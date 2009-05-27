@@ -1,7 +1,6 @@
 #include <minimal>
 #include <rescue>
 #include <standard-x11>
-# // include <xfce>
 #include <gnome-full>
 
 #TODO:
