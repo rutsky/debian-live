@@ -28,3 +28,7 @@ approx is installed on my machine, so I added in /etc/hosts:
 -----
 127.0.0.1 deb-proxy
 -----
+
+Links:
+  http://wiki.debian.org/DebianLive/
+  http://welinux.ru/post/814/
