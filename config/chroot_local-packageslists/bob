@@ -11,7 +11,7 @@
 
 konsole xterm
 less file findutils grep mawk patch
-coreutils gnupg2
+coreutils
 kdirstat
 bsdmainutils
 scalpel
@@ -52,6 +52,7 @@ ncurses-base
 usbutils
 gpm
 gparted testdisk
+gnupg2
 
 # Security
 nessus nmap wireshark
@@ -66,8 +67,8 @@ djview4
 # IM
 pidgin pidgin-encryption pidgin-extprefs pidgin-festival pidgin-guifications pidgin-hotkeys 
 pidgin-lastfm pidgin-libnotify pidgin-otr pidgin-plugin-pack pidgin-privacy-please pidgin-themes
-kopete gajim 
-psi 
+kopete gajim
+psi
 tkabber tkabber-plugins
 
 # Windows
