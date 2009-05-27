@@ -23,3 +23,8 @@ debian-multimedia       http://mirror.yandex.ru/debian-multimedia
 opera                   http://deb.opera.com/opera
 virtualbox              http://download.virtualbox.org/virtualbox/debian
 -----
+
+approx is installed on my machine, so I added in /etc/hosts:
+-----
+127.0.0.1 deb-proxy
+-----
