@@ -41,7 +41,7 @@ krusader kate vim gedit emacs nano
 unace-nonfree lha p7zip-rar rar unrar 
 
 # System
-apt-listbugs reportbug-ng
+apt-listbugs reportbug-ng debconf-utils
 hwinfo hdparm sdparm smartmontools
 util-linux aptitude dhcp-client rpm
 nfs-common mysql-client dnsutils ftp net-tools netcat rsync traceroute whois
