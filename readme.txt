@@ -39,6 +39,12 @@ user    52m56.535s
 sys     12m16.658s
 -----
 
+Preseed.
+Packages can be configured using preseed scripts, which should putted in 
+config/chroot_local-preseed/.
+The easiest way to create preseed file is to copy some strings from output of
+$ debconf-get-selections
+
 Links:
   http://wiki.debian.org/DebianLive/
   http://welinux.ru/post/814/
