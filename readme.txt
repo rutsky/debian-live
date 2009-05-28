@@ -1,3 +1,5 @@
+Valid for live-helper version 1.0.4-1.
+
 I'm using this tutorial to create persistent Debian on flash drive:
 http://wiki.debian.org/DebianLive/Howto/Custom_Install
 
