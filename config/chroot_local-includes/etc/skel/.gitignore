@@ -1,0 +1,10 @@
+# Ignoring Code::Blocks build data
+bin/Debug/
+bin/Release/
+obj/Debug/
+obj/Release/
+*.save
+
+# Ignoring common editors backup files.
+*~
+*.backup

@@ -1,0 +1,7 @@
+[user]
+	email = altsysrq@gmail.com
+	name = Vladimir Rutsky
+[core]
+	excludesfile = ~/.gitignore
+[color]
+	ui = auto
