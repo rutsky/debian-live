@@ -42,7 +42,7 @@ LH_PACKAGES=""
 
 # $LH_PACKAGES_LISTS: set package list to install
 # (Default: xfce)
-LH_PACKAGES_LISTS="xfce bob"
+LH_PACKAGES_LISTS="standart bob"
 
 # $LH_TASKS: set tasks to install
 # (Default: empty)
