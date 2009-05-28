@@ -29,6 +29,14 @@ approx is installed on my machine, so I added in /etc/hosts:
 127.0.0.1 deb-proxy
 -----
 
+Statistics.
+Last build was done in:
+-----
+real    224m13.365s
+user    52m56.535s
+sys     12m16.658s
+-----
+
 Links:
   http://wiki.debian.org/DebianLive/
   http://welinux.ru/post/814/
