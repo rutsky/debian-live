@@ -18,7 +18,7 @@ LH_BOOTAPPEND_LIVE="locale=ru_RU.UTF-8 keyb=ru"
 
 # $LH_BOOTAPPEND_INSTALL: set boot parameters
 # (Default: empty)
-LH_BOOTAPPEND_INSTALL=" -- "
+LH_BOOTAPPEND_INSTALL=" -- ${LH_BOOTAPPEND_LIVE}"
 
 # $LH_BOOTLOADER: set bootloader
 # (Default: syslinux)
@@ -62,16 +62,16 @@ LH_HOSTNAME="debian"
 LH_ISO_APPLICATION="Debian Live"
 
 # $LH_ISO_PREPARER: set iso preparer
-# (Default: live-helper 1.0.3-2; http://packages.qa.debian.org/live-helper)
-LH_ISO_PREPARER="live-helper 1.0.3-2; http://packages.qa.debian.org/live-helper"
+# (Default: live-helper $VERSION; http://packages.qa.debian.org/live-helper)
+LH_ISO_PREPARER="live-helper $VERSION; http://packages.qa.debian.org/live-helper"
 
 # $LH_ISO_PUBLISHER: set iso publisher
 # (Default: Debian Live project; http://debian-live.alioth.debian.org/; debian-live@lists.debian.org)
 LH_ISO_PUBLISHER="Debian Live project; http://debian-live.alioth.debian.org/; debian-live@lists.debian.org"
 
 # $LH_ISO_VOLUME: set iso volume (max 32 chars)
-# (Default: Debian Live lenny 20090222-17:19)
-LH_ISO_VOLUME="Debian Live lenny 20090222-17:19"
+# (Default: Debian Live lenny $(date +%Y%m%d-%H:%M))
+LH_ISO_VOLUME="Debian Live lenny $(date +%Y%m%d-%H:%M)"
 
 # $LH_JFFS2_ERASEBLOCK: set jffs2 eraseblock size
 # (Default: unset)
@@ -127,19 +127,19 @@ LH_SYSLINUX_SPLASH=""
 
 # $LH_SYSLINUX_TIMEOUT: set custom syslinux timeout in seconds
 # (Default: 0)
-LH_SYSLINUX_TIMEOUT="10"
+LH_SYSLINUX_TIMEOUT="0"
 
 # $LH_SYSLINUX_CFG: set custom syslinux configuration file
 # (Default: empty)
 LH_SYSLINUX_CFG=""
 
 # $LH_SYSLINUX_MENU: set syslinux menu
-# (Default: disabled)
-LH_SYSLINUX_MENU="disabled"
+# (Default: enabled)
+LH_SYSLINUX_MENU="enabled"
 
 # $LH_SYSLINUX_MENU_LIVE_ENTRY: set text to be used on the menu for live entries
-# (Default: Start Debian Live)
-LH_SYSLINUX_MENU_LIVE_ENTRY="Start Debian Live"
+# (Default: Live)
+LH_SYSLINUX_MENU_LIVE_ENTRY="Live"
 
 # $LH_SYSLINUX_MENU_LIVE_FAILSAFE_ENTRY: set text to be used on the menu for live entries (failsafe ones)
 # (Default: )
