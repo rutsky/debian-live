@@ -8,11 +8,11 @@ Probably easiest way to set up building process is:
   # lh_config -d lenny -b iso
 2) Replace generated configuration with version from repository.
 3) Run:
-  # time lh_build 2>&1 | tee build.log
+  # nice -n 10 time lh_build 2>&1 | tee build.log
 
 To rebuild image run:
   # lh_clean
-  # time lh_build 2>&1 | tee build.log
+  # nice -n 10 time lh_build 2>&1 | tee build.log
 
 To improve operations with packages recommended setup packages proxy,
 I'm using `approx' for that.
