@@ -40,7 +40,8 @@ krusader kate vim gedit emacs nano
 unace-nonfree lha p7zip-rar rar unrar 
 
 # System
-apt-listbugs debconf-utils
+#apt-listbugs -- useful packages. but it's installation leads to problems with automatic installation of buggy packages.
+debconf-utils
 #reportbug-ng -- requires python-support >= 0.90.0, n/a in stable.
 hwinfo hdparm sdparm smartmontools
 util-linux aptitude dhcp-client rpm
