@@ -14,7 +14,8 @@ LH_BINARY_INDICES="enabled"
 
 # $LH_BOOTAPPEND_LIVE: set boot parameters
 # (Default: empty)
-LH_BOOTAPPEND_LIVE="locale=ru_RU.UTF-8 keyb=ru"
+LH_BOOTAPPEND_LIVE=""
+#LH_BOOTAPPEND_LIVE="locale=ru_RU.UTF-8 keyb=ru"
 
 # $LH_BOOTAPPEND_INSTALL: set boot parameters
 # (Default: empty)
