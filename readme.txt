@@ -32,11 +32,11 @@ approx is installed on my machine, so I added in /etc/hosts:
 -----
 
 Statistics.
-Last build was done in:
+Last build was done in 2:25:26 (almost all packages was predownloaded so it
+should be close to pure installation time):
 -----
-real    224m13.365s
-user    52m56.535s
-sys     12m16.658s
+3349.18user 762.32system 2:25:26elapsed 47%CPU (0avgtext+0avgdata 0maxresident)k
+41230696inputs+42048520outputs (10398major+64768257minor)pagefaults 0swaps
 -----
 
 Preseed.
