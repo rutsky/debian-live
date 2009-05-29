@@ -5,29 +5,29 @@
 console-cyrillic        console-cyrillic/switch select  No temporary switch
 # Choices: Terminus Unicode нормальный, Terminus Unicode жирный, Terminus Unicode Framebuffer, Terminus Slavic нормальный, Terminus Slavic жирный, Terminus Slavic Framebuffer, Terminus Asian нормальный, Terminus Asian жирный, Terminus Asian Framebuffer, UniCyr, DOS, Alt, Pln, Antiq, Antiq Asian, Sans, Lenta, Cage, Thin, Sarge, A, A Asian, B, B Asian, C, ISO, Arab
 console-cyrillic        console-cyrillic/fontstyle      select  UniCyr
---
+
 # Choices: Беларусская, Болгарская BDS, Болгарская фонетика, Казахская, Казахская с символом Ё, Македонская, Монгольская, Русская, Русская с Win клавишами, Сербская, Украинская, Украинская с Win клавишами
 console-cyrillic        console-cyrillic/kbdtype        select  Russian Winkeys
---
+
 clamav-freshclam        clamav-freshclam/proxy_user     string
 # Файл /etc/console-cyrillic не будет изменён.
 console-cyrillic        console-cyrillic/abusing_debconf        note
---
+
 # Какие виртуальные терминалы вы используете?
 console-cyrillic        console-cyrillic/ttys   string  /dev/tty[1-6]
---
+
 tasksel tasksel/first   multiselect
 # Should /etc/console-cyrillic be changed by Debconf?
 console-cyrillic        console-cyrillic/change_config  boolean true
---
+
 # Choices: 16, 14, 8
 console-cyrillic        console-cyrillic/fontsize       select  16
---
+
 # Choices: UNICODE, CP866, CP1251, ISO-8859-5, KOI8-R, KOI8-U, MAC-CYRILLIC, MIK, PT154, RK1048
 console-cyrillic        console-cyrillic/encoding       select  UNICODE
---
+
 # Вы хотите, чтобы настройки консоли для кириллицы устанавливались при каждой загрузке системы?
 console-cyrillic        console-cyrillic/bootsetup      boolean true
---
+
 # Choices: Caps Lock, Правый Alt, Правый Control, Правый Shift, Alt+Shift, Control+Shift, Control+Alt, Левая клавиша с логотипом Windows, Правая клавиша с логотипом Windows, Клавиша Menu
 console-cyrillic        console-cyrillic/toggle select  Right Alt
