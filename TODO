@@ -1,9 +1,9 @@
  * Disable unneded services (such as exim).
  * Install virtualbox.
- * Configure locales.
+ ? Configure locales.
  * Using `tee' seems really slowing down creating squashfs process, because of used progress bar in it (look at size of generated log file).
  * Configure not to send e-mails to localhost from Samhain in chroot.
  * Come with idea of uid/gid translation when mounting Live Debian flash drive.
  * Include `konsole' configuration in /home skeleton.
- * Fix unbootability of generated image in VirtualBox.
+ + Fix unbootability of generated image in VirtualBox.
  * Install propriate drivers for video devices and setup automatic configuration of them.
