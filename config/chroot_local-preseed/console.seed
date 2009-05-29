@@ -1,21 +1,66 @@
-# Console font.
-console-cyrillic        console-cyrillic/fontstyle      select  UniCyr
-# ???
-#console-setup   console-setup/layoutcode        string  us,ru
-# Keyboard layout.
+# Игнорируется раскладка, установленная при загрузке системы
+console-common  console-data/keymap/ignored     note
 console-common  console-data/keymap/full        select  ru-ms
+# Choices: Выбрать раскладку из списка архитектур, Не трогать раскладку, Сохранить раскладку ядра, Выбрать раскладку из полного списка
+console-common  console-data/keymap/policy      select  Select keymap from full list
+# Choices: azerty, dvorak, fgGIod, qwerty, qwertz
+console-common  console-data/keymap/family      select  qwerty
+
+# Игнорируется раскладка, установленная при загрузке системы
+console-data    console-data/keymap/ignored     note
 console-data    console-data/keymap/full        select  ru-ms
-console-cyrillic        console-cyrillic/kbdtype        select  Russian Winkeys
-# Keyboard layout switching.
+
+console-setup   console-setup/variant   select  Russia
+
+# for internal use
+console-setup   console-setup/modelcode string
+
+# for internal use
+console-setup   console-setup/fontsize  string  16
+
+# for internal use
+console-setup   console-setup/layoutcode        string  us,ru
+
+# for internal use
+console-setup   console-setup/codesetcode       string  CyrSlav
+# Неподдерживаемые настройки в конфигурационном файле
+console-setup   console-setup/dont_ask_layout   error
+
+# Choices: нет клавиши AltGr, правая клавиша Alt, правая клавиша Control, правая клавиша Logo, клавиша Menu, левая клавиша Alt, левая клавиша Logo, Enter на цифр. клавиатуре, обе клавиши Logo, обе клавиши Alt одновременно
+console-setup   console-setup/altgr     select  No AltGr key
+
+# Используемые виртуальные консоли:
+console-setup   console-setup/ttys      string  /dev/tty[1-6]
+
+# Choices: . арабский, # армянский, # кириллица - KOI8-R и KOI8-U, # кириллица - не славянские языки, # кириллица - славянские языки (также боснийская и сербская латиница), . эфиопский, # грузинский, # греческий, # иврит, # лаосский, # Latin1 и Latin5 - языки западной Европы и тюркские, # Latin2 - для центральной Европы и румынские, # Latin3 и Latin8 - чева; эсперанто; ирландский; мальтийский и валлийский, # Latin7 - литовский; латышский; маори и маршальский, . Latin - вьетнамский, # тайский, . комбинированный - латинский; славянскаякириллица; иврит; основной арабский, . комбинированный - латинский; славянская кириллица; греческий, . комбинированный - латинский; славянская и не славянская кириллица
+console-setup   console-setup/codeset   select  # Cyrillic - Slavic languages (also Bosnian and Serbian Latin)
+
+# Choices: Caps Lock, правая клавиша Alt, правая клавиша Control, правая клавиша Shift, правая клавиша Logo, клавиша Menu, Alt+Shift, Control+Shift, Control+Alt, Alt+Caps Lock, левый Control+левый Shift, левая клавиша Alt, левая клавиша Control, левая клавиша Shift, левая клавиша Logo, Scroll Lock, без переключателя
 console-setup   console-setup/toggle    select  Right Alt
-# Console font.
+
+# Choices: Fixed, Terminus, TerminusBold, TerminusBoldVGA, VGA
 console-setup   console-setup/fontface  select  Terminus
-# TTY's with cyrillic.
-console-cyrillic        console-cyrillic/ttys   string  /dev/tty[1-6]
+
+# Choices:
+console-setup   console-setup/fontsize-text     select  16
+
+# Choices: нет составной клавиши, правая клавиша Alt, правая клавиша Control, правая клавиша Logo, клавиша Menu, левая клавиша Logo, Caps Lock
+console-setup   console-setup/compose   select  No compose key
+
+# Choices: нет временного переключателя, обе клавиши Logo, правая клавиша Alt, правая клавиша Logo, левая клавиша Alt, левая клавиша Logo
+console-setup   console-setup/switch    select  No temporary switch
+
+# Choices: ARMSCII-8, CP1251, CP1255, CP1256, GEORGIAN-ACADEMY, GEORGIAN-PS, IBM1133, ISIRI-3342, ISO-8859-1, ISO-8859-10, ISO-8859-11, ISO-8859-13, ISO-8859-14, ISO-8859-15, ISO-8859-16, ISO-8859-2, ISO-8859-3, ISO-8859-4, ISO-8859-5, ISO-8859-6, ISO-8859-7, ISO-8859-8, ISO-8859-9, KOI8-R, KOI8-U, TIS-620, UTF-8, VISCII
 console-setup   console-setup/charmap   select  UTF-8
+
+# for internal use
 console-setup   console-setup/optionscode       string  grp:toggle,grp_led:scroll
-console-cyrillic        console-cyrillic/encoding       select  UNICODE
+
 console-setup   console-setup/layout    select  Russia
-console-cyrillic        console-cyrillic/bootsetup      boolean true
+
+# for internal use
 console-setup   console-setup/variantcode       string  ,
-console-cyrillic        console-cyrillic/toggle select  Right Alt
+
+console-setup   console-setup/model     select  Generic 105-key (Intl) PC
+
+console-setup   console-setup/fontsize-fb       select  16
