@@ -2,13 +2,22 @@ Valid for live-helper version 1.0.4-1.
 
 I'm using this tutorial to create persistent Debian on flash drive:
 http://wiki.debian.org/DebianLive/Howto/Custom_Install
+Actually:
+  1) Format flash drive:
+    sdX1     4 Gb   fat32   (label:        ) Windows' available space
+    sdX2   0.6 Gb   ext3    (label: home-rw) Persistent home partition
+    sdX3     3 Gb   ext3    (label:        ) Static live system
+  2) Install grub on flash's sdX3 (as described in HOWTO, with menu.lst 
+  configuration).
+  3) Copy system on flash (as described in HOWTO).
+  4) Copy home directory.
 
 Probably easiest way to set up building process is:
-1) Run (all under root):
-  # lh_config -d lenny -b iso
-2) Replace generated configuration with version from repository.
-3) Run:
-  # nice -n 10 time lh_build 2>&1 | tee build.log
+  1) Run (all under root):
+    # lh_config -d lenny -b iso
+  2) Replace generated configuration with version from repository.
+  3) Run:
+    # nice -n 10 time lh_build 2>&1 | tee build.log
 
 To rebuild image run:
   # lh_clean
