@@ -7,3 +7,9 @@
  * Include `konsole' configuration in /home skeleton.
  + Fix unbootability of generated image in VirtualBox.
  * Install propriate drivers for video devices and setup automatic configuration of them.
+ * Configure root login (mc, git).
+ * Gnome default layout (pager, shortcuts).
+ * Disable special keys by default (for unusual notebooks).
+ * Don't suspend by default (because it's buggy).
+ * Remove `scilab'.
+ * Configure using of Russian national time etc.
