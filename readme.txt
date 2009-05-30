@@ -37,6 +37,9 @@ should be close to pure installation time):
 -----
 3349.18user 762.32system 2:25:26elapsed 47%CPU (0avgtext+0avgdata 0maxresident)k
 41230696inputs+42048520outputs (10398major+64768257minor)pagefaults 0swaps
+
+3240.73user 870.61system 3:26:36elapsed 33%CPU (0avgtext+0avgdata 0maxresident)k
+41889648inputs+41665272outputs (14188major+61141644minor)pagefaults 0swaps
 -----
 
 Preseed.
