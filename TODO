@@ -13,6 +13,7 @@
  * Disable special keys by default (for unusual notebooks).
  * Don't suspend by default (because it's buggy).
  * Configure using of Russian national time etc.
+ * Configure git authors.
 
 done:
  + Fix unbootability of generated image in VirtualBox.
