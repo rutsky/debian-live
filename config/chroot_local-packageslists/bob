@@ -125,7 +125,6 @@ octave3.0 octave3.0-htmldoc octave-symbolic
 yacas yacas-doc
 gnuplot gnuplot-doc
 glpk libglpk-dev
-scilab
 # TODO: plplot ?
 
 # Image processing
