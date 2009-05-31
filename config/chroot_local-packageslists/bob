@@ -126,6 +126,9 @@ yacas yacas-doc
 gnuplot gnuplot-doc
 glpk libglpk-dev
 # TODO: plplot ?
+axiom axiom-tex
+maxima
+mathomatic
 
 # Image processing
 gqview gwenview ksvg
