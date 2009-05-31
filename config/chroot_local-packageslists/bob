@@ -141,6 +141,7 @@ ktorrent
 wget
 clive
 curl
+youtube-dl
 
 # Multimedia
 mplayer smplayer vlc ogle xine-ui
