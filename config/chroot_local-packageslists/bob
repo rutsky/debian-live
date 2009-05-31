@@ -34,6 +34,7 @@ recode
 # Editors
 mc
 krusader kate vim gedit emacs nano
+texmacs
 
 # Non free tools
 #flashplugin-nonfree
