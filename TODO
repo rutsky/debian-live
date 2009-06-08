@@ -14,6 +14,7 @@
  * Don't suspend by default (because it's buggy).
  * Configure using of Russian national time etc.
  * Configure git authors.
+ * Add SDL libraries (SDL, SDL_image, SDL_mixer etc)
 
 done:
  + Fix unbootability of generated image in VirtualBox.
