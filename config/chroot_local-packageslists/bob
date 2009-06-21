@@ -121,6 +121,7 @@ perl
 # Python
 python python-doc
 ipython
+netbeans-ide
 
 # Math
 octave3.0 octave3.0-htmldoc octave-symbolic
